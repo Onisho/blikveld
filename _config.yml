@@ -17,3 +17,7 @@ navi:
   wanneer:
     name: wanneer
     url: /wanneer
+    
+# COLLECTIONS
+collections:
+  movies
