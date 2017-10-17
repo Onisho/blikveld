@@ -8,8 +8,7 @@ layout: default
       <div class="col">
         <h1>Movies</h1>
         
-        {% assign sorted_movies = (site.movies | sort: 'title' %}
-        {% for item in sorted_movies %}
+        {% for item in site.movies %}
         <h2><a href="{{ item.url }}">{{item.title}}</a></h2>
         <h6>{{item.location}} {{item.date}} {{item.time}}</h6>
         <p>{{item.description}}</p>
