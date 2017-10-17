@@ -4,7 +4,8 @@ description: Dit is een omschrijving
 keywords: film
 baseurl: /blikveld
 exclude: ['README.md']
-
+include: ['_pages']
+permalink: /:title/
 
 # NAVIGATION
 navi:
@@ -20,4 +21,5 @@ navi:
     
 # COLLECTIONS
 collections:
-  movies
+  movies:
+    output: true
