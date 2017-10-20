@@ -7,15 +7,15 @@ layout: default
     <div class="row">
       <div class="col-4">
         <ul class="nav flex-column">
-          {% for item in site.movies %}
+          {% for item in site.films %}
           <li class="nav-item"><a href="{{ item.url | prepend: site.baseurl }}" class="nav-link">{{item.title}}</a></li>
           {% endfor %}
         </ul>
       </div>
       <div class="col-8">
-        <h1>Movies</h1>
+        <h1>Films</h1>
         
-        {% for item in site.movies %}
+        {% for item in site.films %}
         <h2><a href="{{ item.url | prepend: site.baseurl }}">{{item.title}}</a></h2>
         <h6>{{item.location}} {{item.date}} {{item.time}}</h6>
         <div>{{item.excerpt}}</div>

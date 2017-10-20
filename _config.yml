@@ -21,6 +21,6 @@ navi:
     
 # COLLECTIONS
 collections:
-  movies:
+  films:
     output: true
-    url: movies
+    url: films
