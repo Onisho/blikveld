@@ -5,17 +5,23 @@ layout: default
 <section>
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-4">
+        <ul class="nav flex-column">
+          {% for item in site.movies %}
+          <li class="nav-item"><a href="{{ item.url | prepend: site.baseurl }}" class="nav-link">{{item.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-8">
         <h1>Movies</h1>
         
         {% for item in site.movies %}
-        <h2><a href="{{ item.url }}">{{item.title}}</a></h2>
+        <h2><a href="{{ item.url | prepend: site.baseurl }}">{{item.title}}</a></h2>
         <h6>{{item.location}} {{item.date}} {{item.time}}</h6>
-        <p>{{item.description}}</p>
-        <p>{{item.content}}</p>
+        <div>{{item.excerpt}}</div>
+        <div class="grey">{{item.content | remove: item.excerpt}}</div>
         <p><small>{{item.year}} - {{item.director}}</small></p>
         {% endfor %}
-        
         
       </div>
     </div>

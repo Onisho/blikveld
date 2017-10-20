@@ -1,3 +1,5 @@
-body {font-family:courier;}
+body {border:25px solid limegreen;padding:25px;}
+
 a {color:limegreen;}
 a:hover {color:#000;}
+.grey {color:gray;}

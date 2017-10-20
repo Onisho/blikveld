@@ -1,5 +1,5 @@
 # SITE SETTINGS
-title: Dit is een website
+title: Blikveld
 description: Dit is een omschrijving
 keywords: film
 baseurl: /blikveld
@@ -23,3 +23,4 @@ navi:
 collections:
   movies:
     output: true
+    url: movies
