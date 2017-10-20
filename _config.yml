@@ -1,6 +1,6 @@
 # SITE SETTINGS
 title: Blikveld
-description: Dit is een omschrijving
+description: Een filmfestival op locatie
 keywords: film
 baseurl: /blikveld
 exclude: ['README.md']
