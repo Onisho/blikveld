@@ -21,6 +21,7 @@ layout: default
         <div>{{item.excerpt}}</div>
         <div class="grey">{{item.content | remove: item.excerpt}}</div>
         <p><small>{{item.year}} - {{item.director}}</small></p>
+        <p><a href="https://www.youtube.com/watch?v={{item.youtube}}">youtube</a></p>
         {% endfor %}
         
       </div>
