@@ -16,11 +16,14 @@ layout: default
         <h1>Films</h1>
         
         {% for item in site.films %}
+        <div class="mb-5">
         <h2><a href="{{ item.url | prepend: site.baseurl }}">{{item.title}}</a></h2>
+        <h5>{{item.country}} - {{item.year}} - {{item.director}}</h5>
         <h6>{{item.location}} {{item.date}} {{item.time}}</h6>
+        <hr>
         <div>{{item.excerpt}}</div>
         <div class="grey">{{item.content | remove: item.excerpt}}</div>
-        <p><small>{{item.year}} - {{item.director}}</small></p>
+        </div>
         {% endfor %}
         
       </div>
