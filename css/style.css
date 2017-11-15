@@ -1,5 +1,15 @@
-body {border:25px solid limegreen;padding:25px;}
-
-a {color:limegreen;}
+a {color:green;}
 a:hover {color:#000;}
 .grey {color:gray;}
+
+.yellow {color:#FFF200;}
+.green {color:#4AB969;}
+.dgreen {color:#4B7C4E;}
+.blue {color:#80D3F3;}
+.grey {color:#cccccc;}
+
+.movie .info li {display:inline-block;margin:0 5px;padding:0 5px;}
+.movie .date {background-color:#B1B1B1B1;color:#FFFFFF;}
+.movie .time {background-color:#FFF200;}
+.movie .location {background-color:#4AB969;color:#FFFFFF;}
+.movie .duration {background-color:#80D3F3;color:#FFFFFF;}
