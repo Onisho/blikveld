@@ -33,3 +33,7 @@ h1 {text-transform:uppercase;font-size:2rem;}
 
 .card-title {font-size:1.1rem;}
 .card a {color:inherit;}
+
+.footer {background: url('../img/footer.png') 50% top no-repeat;height:340px;background-size:cover;}
+.footer .nav {padding-top:270px;}
+.footer .nav a {color:#FFFFFF;}

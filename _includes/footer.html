@@ -1,0 +1,18 @@
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="nav">
+          {% for menu in site.navi %}
+          <li class="nav-item">
+            <a href="{{site.baseurl}}{{menu.url}}" class="nav-link {{active}} {{menu.class}}" rel="{{menu.rel}}">{{ menu.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6">
+      
+      </div>
+    </div>
+  </div>
+</footer>
