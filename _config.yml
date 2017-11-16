@@ -9,15 +9,26 @@ permalink: /:title/
 
 # NAVIGATION
 navi:
-  wat:
-    name: wat
-    url: /wat
-  waar:
-    name: waar
-    url: /waar
-  wanneer:
-    name: wanneer
-    url: /wanneer
+- name: Home
+  url: /
+  class: 
+  rel: 
+- name: Films
+  url: /films
+  class: 
+  rel: 
+- name: Tickets
+  url: /tickets
+  class: 
+  rel: 
+- name: Praktisch
+  url: /praktisch
+  class: 
+  rel: 
+- name: Missie
+  url: /missie
+  class: 
+  rel: 
     
 # COLLECTIONS
 collections:
