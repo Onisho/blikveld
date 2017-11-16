@@ -13,22 +13,24 @@
   
   <body>
     
-    <!-- include navigation -->
-    <nav class="navbar navbar-expand-md navbar-light">
-  <a class="navbar-brand d-inline-block d-md-none" href="/blikveld/">BLIKVELD</a>
+    <div class="wrap">
+    
+      <!-- include navigation -->
+      <nav class="navbar navbar-expand-md">
+  <a class="navbar-brand d-inline-block" href="/blikveld/">BLIKVELD</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       
       <li class="text-center">
         <a href="/blikveld/" class="nav-link  " rel="">Home</a>
       </li>
       
       <li class="text-center">
-        <a href="/blikveld/films" class="nav-link  " rel="">Films</a>
+        <a href="/blikveld/programma" class="nav-link  " rel="">Programma</a>
       </li>
       
       <li class="text-center">
@@ -47,9 +49,8 @@
   </div>
 </nav>
     
-    
-    <!-- include content -->
-    <section>
+      <!-- include content -->
+      <div class="content"><section>
   <div class="container">
     <div class="row">
       <div class="col">
@@ -62,22 +63,21 @@
     </div>
   </div>
 </section>
-
+</div>
     
-    
-    <!-- include footer -->
-    <footer class="footer">
+      <!-- include footer -->
+      <footer class="footer pb-3">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6">
-        <ul class="nav">
+      <div class="col-md-10">
+        <ul class="nav d-none d-sm-flex">
           
           <li class="nav-item">
             <a href="/blikveld/" class="nav-link  " rel="">Home</a>
           </li>
           
           <li class="nav-item">
-            <a href="/blikveld/films" class="nav-link  " rel="">Films</a>
+            <a href="/blikveld/programma" class="nav-link  " rel="">Programma</a>
           </li>
           
           <li class="nav-item">
@@ -94,14 +94,19 @@
           
         </ul>
       </div>
-      <div class="col-md-6">
-      
+      <div class="col-md-2">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <small class="copyright">&copy; 2017 - Kiwanis Universus Oudenaarde</small>
       </div>
     </div>
   </div>
 </footer>
-    
-    
+      
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,600,700');
+
+body {font-family: 'Open Sans', sans-serif;font-weight:400;}
 a {color:green;}
 a:hover {color:#000;text-decoration:none;}
-.grey {color:gray;}
+h1 {text-transform:uppercase;font-size:2rem;font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
+h3 {font-weight:600;}
+h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 
-h1 {text-transform:uppercase;font-size:2rem;}
+.wrap {background:url('../img/header.png') 50% top no-repeat;}
+.content {margin-top:70px;}
 
 .yellow {color:#FFF200;}
 .green {color:#4AB969;}
@@ -16,8 +22,14 @@ h1 {text-transform:uppercase;font-size:2rem;}
 .bg-blue {background-color:#80D3F3;}
 .bg-grey {background-color:#cccccc;}
 
+.btn {text-transform:uppercase;}
+.btn-primary {background-color:#FFF200;border-color:#FFF200;color:#000000;}
+.btn-primary:hover {background-color:#4AB969;border-color:#4AB969;color:#FFFFFF;}
+.btn-secondary {background-color:#80D3F3;border-color:#80D3F3;color:#FFFFFF;}
+.btn-secondary:hover {background-color:#4AB969;border-color:#4AB969;color:#FFFFFF;}
+
 .movie .info li {display:inline-block;margin:0 5px;padding:0 5px;}
-.movie .date {background-color:#B1B1B1B1;color:#FFFFFF;}
+.movie .date {background-color:#B1B1B1;color:#FFFFFF;}
 .movie .time {background-color:#FFF200;}
 .movie .location {background-color:#4AB969;color:#FFFFFF;}
 .movie .duration {background-color:#80D3F3;color:#FFFFFF;}
@@ -34,6 +46,17 @@ h1 {text-transform:uppercase;font-size:2rem;}
 .card-title {font-size:1.1rem;}
 .card a {color:inherit;}
 
-.footer {background: url('../img/footer.png') 50% top no-repeat;height:340px;background-size:cover;}
-.footer .nav {padding-top:270px;}
+.footer {background: url('../img/footer.png') 50% top no-repeat;padding-top:250px;height:340px;background-size:cover;color:#FFFFFF;}
 .footer .nav a {color:#FFFFFF;}
+.footer .nav-link {font-size:.85rem;padding: .5rem 1rem .5rem 0;}
+.footer .copyright {opacity: .5;}
+
+.member span {border-bottom:1px solid #F5F5F5;}
+.member span:last-child {border-bottom:none;}
+
+.navbar .nav-link {font-size:1.2rem;}
+.navbar .navbar-brand {text-indent:-9999px;background:url('../img/logo.png') no-repeat;height:103px;width: 143px;}
+.nav-link {text-transform:uppercase;font-family: 'Open Sans Condensed', sans-serif;font-weight:700;color:#000;}
+.nav-link:hover {color:#4AB969;}
+
+

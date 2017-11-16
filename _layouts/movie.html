@@ -4,7 +4,7 @@ layout: default
 
 <section class="movie">
   <div class="container">
-    <idv class="row">
+    <div class="row">
       <div class="col text-center mb-4">
         <h1>{{page.title}}</h1>
         <h5>{{page.country}} / {{page.year}} / {{page.director}}</h5>
@@ -15,15 +15,19 @@ layout: default
           <li class="duration">{{page.duration}}</li>
         </ul>
       </div>
-    </idv>
+    </div>
     <div class="row">
-      <div class="col-sm-6 mb-3">
+    <div class="col-lg-6 col-md-12 mb-3">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{page.youtube}}" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-lg-6 col-md-12">
         <div>{{content}}</div>
+      </div>
+      <div class="col-12 text-center">
+        <hr />
+        <a href="{{site.baseurl}}/tickets" class="btn btn-primary mr-1">Tickets</a> <a href="{{site.baseurl}}/programma" class="btn btn-secondary ml-1">programma</a>
       </div>
     </div>
   </div>
