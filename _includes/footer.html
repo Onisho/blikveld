@@ -1,8 +1,11 @@
 <footer class="footer pb-3">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
+      <div class="col-md-2">
+        KIWANIS UNIVERSUS
+      </div>
       <div class="col-md-10">
-        <ul class="nav d-none d-sm-flex">
+        <ul class="nav d-none d-sm-flex justify-content-end">
           {% for menu in site.navi %}
           <li class="nav-item">
             <a href="{{site.baseurl}}{{menu.url}}" class="nav-link {{active}} {{menu.class}}" rel="{{menu.rel}}">{{ menu.name }}</a>
@@ -10,11 +13,8 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="col-md-2">
-
-      </div>
     </div>
-    <div class="row">
+    <div class="row text-center text-sm-right">
       <div class="col">
         <small class="copyright">&copy; 2017 - Kiwanis Universus Oudenaarde</small>
       </div>
