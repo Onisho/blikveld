@@ -21,6 +21,10 @@ navi:
   url: /tickets
   class: 
   rel: 
+- name: Locaties
+  url: /locaties
+  class: 
+  rel: 
 - name: Praktisch
   url: /praktisch
   class: 
