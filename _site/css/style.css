@@ -43,6 +43,8 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 .program .location.kapel {background: url('../img/kapel.png') bottom right;}
 .program .location.marca {background: url('../img/marca.png') bottom right;}
 
+.postscript .logo {background-color:#fafafa;margin-bottom:15px;padding:10px;text-transform:uppercase;font-size:.8rem;}
+
 .card-title {font-size:1.1rem;}
 .card a {color:inherit;}
 
@@ -56,13 +58,14 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 .member span:last-child {border-bottom:none;}
 
 .navbar {background:#FFF200;}
-.navbar .nav-link {font-size:1.2rem;}
+.navbar .nav-link {font-size:1.2rem;line-height: 2.6rem;}
 .navbar .navbar-brand {color:#000000;font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 .navbar-toggler {border:2px solid #FFFFFF;font-size:1rem;padding: 0 .225rem;}
 .nav-link {text-transform:uppercase;font-family: 'Open Sans Condensed', sans-serif;font-weight:700;color:#000;}
 .nav-link:hover {color:#4AB969;}
 .custom-toggler.navbar-toggler {border-color: rgb(0,0,0);}
 .custom-toggler .navbar-toggler-icon {background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.navbar .kiwanis {width:60px;display:block;margin:0 auto;}
 
 
 @media (max-width: 767px) {
@@ -89,6 +92,7 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
   .content {margin-top:60px;}
   .front .content {margin-top:0;}
   .navbar .navbar-brand {text-indent:-9999px;background:url('../img/logo.png') no-repeat;background-size:contain;height:103px;width: 143px;}
+  .navbar-expand-md .navbar-nav .nav-link {padding-right:.6rem;padding-left:.6rem;}
   .caption {padding-top:12%;min-height: calc(80% - 100px);}
   .caption h2 {font-size:4.4rem;}
 }
