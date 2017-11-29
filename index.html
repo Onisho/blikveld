@@ -81,7 +81,7 @@ layout: front
             {% if myDate == "22" %}
             <div class="card mb-4">
               <a href="{{ item.url | prepend: site.baseurl }}">
-                <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}}">
+                <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | replace: 'ê', 'e' | downcase }}.png" alt="{{item.title}}">
                 <div class="time pb-1">{{item.time}}</div>
                 <div class="card-body">
                   <h4 class="card-title mb-1">{{item.title}}</h4>
