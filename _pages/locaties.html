@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Locaties
 permalink: locaties
+layout: default
 ---
 
 <section>
@@ -12,29 +12,131 @@ permalink: locaties
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut diam nisl. Sed finibus lobortis quam. Vestibulum vitae orci vehicula, elementum est porttitor, egestas quam. Cras at aliquet erat, molestie dictum magna. Phasellus est erat, efficitur a rhoncus eu, aliquam vel magna. Nam odio quam, finibus sit amet elit id, aliquet efficitur elit. Curabitur pellentesque libero id dui facilisis, ut facilisis erat commodo. Aenean ultricies sem nec urna tristique egestas.</p>
       </div>
     </div>
-    <div class="row text-center">
-      <div class="col-sm-6">
-        <h5 class="text-uppercase dgreen">Marca</h5>
-        <p>Maarkeweg 65, 9680 Maarkedal</p>
-      </div>
-      <div class="col-sm-6">
-        <h5 class="text-uppercase dgreen">Sint-Vincentiuskapel</h5>
-        <p>Maarkeweg 65, 9680 Maarkedal</p>
-      </div>
-    </div>
     <div class="row program">
-      <div class="col">
+      <div class="col-sm-6 mb-4">
+        <h5 class="text-uppercase text-center dgreen">Marca</h5>
+        <p class="text-center green">Maarkeweg 65, 9680 Maarkedal</p>
+        
         <h3 class="mb-4 text-center day"><span class="day1 d-block">Vrijdag</span> 20 april</h3>
-      </div>
-    </div>
-    <div class="row program">
-      <div class="col">
+        {% assign sorted_items = site.films | sort: "time" %}
+        {% for item in sorted_items  %}
+        {% assign myDate = item.date | date: "%d" %}
+        {% if myDate == "20" and item.location == "MARCA" %}
+        <div class="card mb-4">
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
+            <div class="time pb-1">{{item.time}}</div>
+            <div class="card-body">
+              <h4 class="card-title mb-1">{{item.title}}</h4>
+              <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
+              <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
+            </div>
+          </a>   
+        </div>
+        {% endif %}
+        {% endfor %}
+        
         <h3 class="mb-4 text-center day"><span class="day1 d-block">Zaterdag</span> 21 april</h3>
-      </div>
-    </div>
-    <div class="row program">
-      <div class="col">
+        {% assign sorted_items = site.films | sort: "time" %}
+        {% for item in sorted_items  %}
+        {% assign myDate = item.date | date: "%d" %}
+        {% if myDate == "21" and item.location == "MARCA" %}
+        <div class="card mb-4">
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
+            <div class="time pb-1">{{item.time}}</div>
+            <div class="card-body">
+              <h4 class="card-title mb-1">{{item.title}}</h4>
+              <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
+              <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
+            </div>
+          </a>   
+        </div>
+        {% endif %}
+        {% endfor %}
+        
         <h3 class="mb-4 text-center day"><span class="day1 d-block">Zondag</span> 22 april</h3>
+        {% assign sorted_items = site.films | sort: "time" %}
+        {% for item in sorted_items  %}
+        {% assign myDate = item.date | date: "%d" %}
+        {% if myDate == "22" and item.location == "MARCA" %}
+        <div class="card mb-4">
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
+            <div class="time pb-1">{{item.time}}</div>
+            <div class="card-body">
+              <h4 class="card-title mb-1">{{item.title}}</h4>
+              <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
+              <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
+            </div>
+          </a>   
+        </div>
+        {% endif %}
+        {% endfor %}
+        
+        
+      </div>
+      <div class="col-sm-6 mb-4">
+        <h5 class="text-uppercase text-center dgreen">Sint-Vincentiuskapel</h5>
+        <p class="text-center green">Maarkeweg 65, 9680 Maarkedal</p>
+        
+        <h3 class="mb-4 text-center day"><span class="day1 d-block">Vrijdag</span> 20 april</h3>
+        {% assign sorted_items = site.films | sort: "time" %}
+        {% for item in sorted_items  %}
+        {% assign myDate = item.date | date: "%d" %}
+        {% if myDate == "20" and item.location == "KAPEL" %}
+        <div class="card mb-4">
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
+            <div class="time pb-1">{{item.time}}</div>
+            <div class="card-body">
+              <h4 class="card-title mb-1">{{item.title}}</h4>
+              <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
+              <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
+            </div>
+          </a>   
+        </div>
+        {% endif %}
+        {% endfor %}
+        
+        <h3 class="mb-4 text-center day"><span class="day1 d-block">Zaterdag</span> 21 april</h3>
+        {% assign sorted_items = site.films | sort: "time" %}
+        {% for item in sorted_items  %}
+        {% assign myDate = item.date | date: "%d" %}
+        {% if myDate == "21" and item.location == "KAPEL" %}
+        <div class="card mb-4">
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
+            <div class="time pb-1">{{item.time}}</div>
+            <div class="card-body">
+              <h4 class="card-title mb-1">{{item.title}}</h4>
+              <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
+              <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
+            </div>
+          </a>   
+        </div>
+        {% endif %}
+        {% endfor %}
+        
+        <h3 class="mb-4 text-center day"><span class="day1 d-block">Zondag</span> 22 april</h3>
+        {% assign sorted_items = site.films | sort: "time" %}
+        {% for item in sorted_items  %}
+        {% assign myDate = item.date | date: "%d" %}
+        {% if myDate == "22" and item.location == "KAPEL" %}
+        <div class="card mb-4">
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
+            <div class="time pb-1">{{item.time}}</div>
+            <div class="card-body">
+              <h4 class="card-title mb-1">{{item.title}}</h4>
+              <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
+              <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
+            </div>
+          </a>   
+        </div>
+        {% endif %}
+        {% endfor %}
+        
       </div>
     </div>
   </div>

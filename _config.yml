@@ -1,42 +1,50 @@
-# SITE SETTINGS
+---
 title: Blikveld
+timezone: UTC
+collections:
+  films:
+    title: Films
+    output: true
+    url: films
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: Een filmfestival op locatie
 keywords: film
-baseurl: /blikveld
-exclude: ['README.md']
-include: ['_pages']
-permalink: /:title/
-
-# NAVIGATION
+baseurl: "/blikveld"
+exclude:
+- README.md
+include:
+- _pages
+permalink: "/:title/"
 navi:
 - name: Home
-  url: /
+  url: "/"
   class: 
   rel: 
 - name: Programma
-  url: /programma
+  url: "/programma"
   class: 
   rel: 
 - name: Tickets
-  url: /tickets
+  url: "/tickets"
+  class: 
+  rel: 
+- name: Locaties
+  url: "/locaties"
   class: 
   rel: 
 - name: Praktisch
-  url: /praktisch
+  url: "/praktisch"
   class: 
   rel: 
 - name: Missie
-  url: /missie
+  url: "/missie"
   class: 
   rel: 
-    
-# COLLECTIONS
-collections:
-  films:
-    output: true
-    url: films
-    
-# TEAM
 team:
 - name: Hans 't Kindt
   age: 50

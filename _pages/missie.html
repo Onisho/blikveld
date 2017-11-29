@@ -1,14 +1,14 @@
 ---
-layout: default
 title: missie
 permalink: missie
+layout: default
 ---
 
 <section>
   <div class="container">
     <div class="row text-center">
       <div class="col-sm-6 ml-auto mr-auto">
-        <h1>Missie</h1>
+        <h1 class="mb-4">Missie</h1>
         <p>In de lente van 2018 komen de Vlaamse Ardennen tot leven in een driedaags filmfestival. Bijzondere films waarin mens en natuur versmelten op unieke locaties.</p>
 
         <p>Blikveld is geboren uit enthousiasme voor film en uit liefde voor de natuur van de Vlaamse Ardennen. Alle medewerkers zetten zich vrijwillig in. De opbrengst van dit filmfestival gaat naar Kiwanis Oudenaarde Adriaan Brouwer, een serviceclub met bijzondere aandacht voor hulpbehoevende kinderen.</p>
@@ -18,11 +18,12 @@ permalink: missie
     </div>
     
     <div class="row mt-5 text-center">
-      <div class="col">
+      <div class="col-12">
         <h1>Team</h1>
-          <div class="card-deck mt-3">
+      </div>
             
-            {% for member in site.team %}
+        {% for member in site.team %}
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
             <div class="card member" >
               <img class="card-img-top" src="{{site.baseurl}}/img/{{member.image}}" alt="Card image cap">
               <div class="card-body">
@@ -34,10 +35,9 @@ permalink: missie
                 </p>
               </div>
             </div>
-            {% endfor %}
-            
         </div>
-      </div>
+        {% endfor %}
+            
     </div>
   </div>
 </section>
