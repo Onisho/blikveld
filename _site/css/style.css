@@ -42,6 +42,7 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 .program .location {position:absolute;display:block;right:0;bottom:0;color:#FFFFFF;width:160px;height:44px;text-align:right;padding:17px 5px 0 0;}
 .program .location.kapel {background: url('../img/kapel.png') bottom right;}
 .program .location.marca {background: url('../img/marca.png') bottom right;}
+.program .loc p {padding:0 25px;}
 
 .postscript .logo {background-color:#fafafa;margin-bottom:15px;padding:10px;text-transform:uppercase;font-size:.8rem;}
 
