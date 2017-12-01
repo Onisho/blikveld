@@ -52,18 +52,18 @@ team:
   one: kloppend hart van de organisatie
   two: woont in Etikhove
   three: kijkt uit naar Late Night Special
-- name: Hans 't Kindt
-  age: 50
+- name: Piet De Loof
+  age: 45
   image: team-hans.jpg
-  one: kloppend hart van de organisatie
-  two: woont in Etikhove
-  three: kijkt uit naar Late Night Special
-- name: Hans 't Kindt
-  age: 50
+  one: schrijft alle copy voor web en print
+  two: woont in Leupegem
+  three: kijkt uit naar 'Days of heaven'
+- name: Rosalien Eggermont
+  age: 29
   image: team-hans.jpg
-  one: kloppend hart van de organisatie
-  two: woont in Etikhove
-  three: kijkt uit naar Late Night Special
+  one: grafisch vormgeefster van Blikveld
+  two: woont in Leupegem
+  three: kijkt uit naar de openingsfilm
 - name: Hans 't Kindt
   age: 50
   image: team-hans.jpg
