@@ -10,15 +10,17 @@ layout: default
       <div class="col-12">
         <h1 class="text-center mb-4">Programma</h1>
         <p class="text-center mb-5">Blikveld toont acht grote en kleine klassiekers voor jong en oud. Verhalen over heden en verleden, vriendschap en liefde, ontmoetingen en   afscheid. Films die hun karakter ontlenen aan dit unieke landschap: golvend van emoties, lieflijk of dreigend, kwetsbaar maar overdonderend.</p>
-        
+
         <div class="row">
           <div class="col-md-4">
             <h3 class="mb-4 text-center day"><span class="day1 d-block">Vrijdag</span> 20 april</h3>
-            <div class="card mb-4">
-              <div class="time2 pb-1">18u</div>
-              <div class="card-body text-center bg-blue">
-                <h4 class="card-title mb-1 pt-3">Receptie in popup café De Lustigen Boer</h4>
-              </div>
+            <a href="{{site.baseurl}}/receptie">
+              <div class="card mb-4">
+                <div class="time2 pb-1">18u</div>
+                <div class="card-body text-center bg-blue">
+                  <h4 class="card-title mb-1 pt-3">Receptie in popup café De Lustigen Boer</h4>
+                </div>
+              </a>
             </div>
             <!-- MOVIES FRIDAY -->
             {% assign sorted_items = site.films | sort: "time" %}
@@ -34,15 +36,17 @@ layout: default
                   <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
                   <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
                 </div>
-              </a>   
+              </a>
             </div>
             {% endif %}
             {% endfor %}
             <div class="card mb-4">
-              <div class="time2 pb-1">21u</div>
-              <div class="card-body text-center bg-blue">
-                <h4 class="card-title mb-1 pt-3">Receptie in popup café De Lustigen Boer</h4>
-              </div>
+              <a href="{{site.baseurl}}/afterparty">
+                <div class="time2 pb-1">21u00</div>
+                <div class="card-body text-center bg-green">
+                  <h4 class="card-title mb-1 pt-3">Afterparty 'Het Kwade Oog'</h4>
+                </div>
+              </a>
             </div>
             <!-- // MOVIES -->
           </div>
@@ -62,25 +66,29 @@ layout: default
                   <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
                   <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
                 </div>
-              </a>   
+              </a>
             </div>
             {% endif %}
             {% endfor %}
             <!-- // MOVIES -->
             <div class="card mb-4">
-              <div class="time2 pb-1">22u30</div>
-              <div class="card-body text-center bg-green">
-                <h4 class="card-title mb-1 pt-3">Late Night Special</h4>
-              </div>
+              <a href="{{site.baseurl}}/late-night-special">
+                <div class="time2 pb-1">22u30</div>
+                <div class="card-body text-center bg-green">
+                  <h4 class="card-title mb-1 pt-3">Late Night Special</h4>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4">
             <h3 class="mb-4 text-center day"><span class="day1 d-block">Zondag</span> 22 april</h3>
-            <div class="card mb-4">
-              <div class="time2 pb-1">9u</div>
-              <div class="card-body text-center bg-yellow">
-                <h4 class="card-title mb-1 pt-3">Brunch in De Lustigen Boer</h4>
-              </div>
+            <a href="{{site.baseurl}}/brunch">
+              <div class="card mb-4">
+                <div class="time2 pb-1">9u</div>
+                <div class="card-body text-center bg-yellow">
+                  <h4 class="card-title mb-1 pt-3">Brunch in De Lustigen Boer</h4>
+                </div>
+              </a>
             </div>
             <!-- MOVIES SUNDAY -->
             {% assign sorted_items = site.films | sort: "time" %}
@@ -96,7 +104,7 @@ layout: default
                   <p class="card-text small mb-1">{{item.country}} / {{item.year}} / {{item.director}}</p>
                   <div class="d-block location {{item.location | downcase}}">{{item.location}}</div>
                 </div>
-              </a>   
+              </a>
             </div>
             {% endif %}
             {% endfor %}

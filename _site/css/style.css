@@ -19,6 +19,7 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 .bg-dgreen {background-color:#4B7C4E;}
 .bg-blue {background-color:#80D3F3;}
 .bg-grey {background-color:#cccccc;}
+.bg-lgrey {background-color:#;}
 
 .btn {text-transform:uppercase;border-radius:inherit;}
 .btn-primary {background-color:#FFF200;border-color:#FFF200;color:#000000;}
@@ -97,4 +98,3 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
   .caption {padding-top:12%;min-height: calc(80% - 100px);}
   .caption h2 {font-size:4.4rem;}
 }
-
