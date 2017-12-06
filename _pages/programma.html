@@ -14,8 +14,8 @@ layout: default
         <div class="row">
           <div class="col-md-4">
             <h3 class="mb-4 text-center day"><span class="day1 d-block">Vrijdag</span> 20 april</h3>
-            <a href="{{site.baseurl}}/receptie">
-              <div class="card mb-4">
+            <div class="card mb-4">
+              <a href="{{site.baseurl}}/receptie">
                 <div class="time2 pb-1">18u</div>
                 <div class="card-body text-center bg-blue">
                   <h4 class="card-title mb-1 pt-3">Receptie in popup café De Lustigen Boer</h4>
@@ -24,7 +24,7 @@ layout: default
             </div>
             <!-- MOVIES FRIDAY -->
             {% assign sorted_items = site.films | sort: "time" %}
-            {% for item in sorted_items  %}
+            {% for item in sorted_items1  %}
             {% assign myDate = item.date | date: "%d" %}
             {% if myDate == "20" %}
             <div class="card mb-4">
@@ -82,8 +82,8 @@ layout: default
           </div>
           <div class="col-md-4">
             <h3 class="mb-4 text-center day"><span class="day1 d-block">Zondag</span> 22 april</h3>
-            <a href="{{site.baseurl}}/brunch">
-              <div class="card mb-4">
+            <div class="card mb-4">
+              <a href="{{site.baseurl}}/brunch">
                 <div class="time2 pb-1">9u</div>
                 <div class="card-body text-center bg-yellow">
                   <h4 class="card-title mb-1 pt-3">Brunch in De Lustigen Boer</h4>
