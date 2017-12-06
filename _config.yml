@@ -23,28 +23,28 @@ permalink: "/:title/"
 navi:
 - name: Home
   url: "/"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Programma
   url: "/programma"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Tickets
   url: "/tickets"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Locaties
   url: "/locaties"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Praktisch
   url: "/praktisch"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Missie
   url: "/missie"
-  class:
-  rel:
+  class: 
+  rel: 
 team:
 - name: Hans 't Kindt
   age: 50
