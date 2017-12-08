@@ -20,7 +20,7 @@ layout: front
               </a>
             </div>
             <!-- MOVIES FRIDAY -->
-            {% assign sorted_items = site.films | sort: "time" %}
+            {% assign sorted_items = site.films | sort: "order" %}
             {% for item in sorted_items  %}
             {% assign myDate = item.date | date: "%d" %}
             {% if myDate == "20" %}
@@ -50,7 +50,7 @@ layout: front
           <div class="col-md-4 mb-5">
             <h3 class="mb-4 text-center day"><span class="day1 d-block">Zaterdag</span>21 april</h3>
             <!-- MOVIES SATURDAY -->
-            {% assign sorted_items = site.films | sort: "time" %}
+            {% assign sorted_items = site.films | sort: "order" %}
             {% for item in sorted_items  %}
             {% assign myDate = item.date | date: "%d" %}
             {% if myDate == "21" %}
@@ -89,7 +89,7 @@ layout: front
               </a>
             </div>
             <!-- MOVIES SUNDAY -->
-            {% assign sorted_items = site.films | sort: "time" %}
+            {% assign sorted_items = site.films | sort: "order" %}
             {% for item in sorted_items  %}
             {% assign myDate = item.date | date: "%d" %}
             {% if myDate == "22" %}
