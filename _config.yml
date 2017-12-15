@@ -14,7 +14,7 @@ collections:
     output: true
 description: Een filmfestival op locatie
 keywords: film
-baseurl: ""
+baseurl: "/blikveld"
 exclude:
 - README.md
 include:
