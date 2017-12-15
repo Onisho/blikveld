@@ -44,30 +44,27 @@ navi:
 - name: Missie
   url: "/missie"
   class: 
-  rel:
-  
-  
+  rel: 
 team:
 - name: Hans 't Kindt
   image: team-hans.jpg
-  text: kloppend hart van de organisatie <br />woont in Etikhove <br />kijkt uit naar Late Night Special
-  
+  text: kloppend hart van de organisatie <br />woont in Etikhove <br />kijkt uit naar
+    Late Night Special
 - name: Piet De Loof
   image: team-piet.jpg
-  text: schrijft alle copy voor web en print <br />woont in Leupegem <br />kijkt uit naar 'Days of heaven'
-  
+  text: schrijft alle copy voor web en print <br />woont in Leupegem <br />kijkt uit
+    naar 'Days of heaven'
 - name: Rosalien Eggermont
   image: team-rosalien.jpg
   text: grafisch vormgeefster van Blikveld <br />woont in Leupegem
-  
 - name: Ludo Vander Haeghen
   image: team-ludo.jpg
   text: Ludo, de man achter de cijfers
-  
 - name: Bert Van Wassenhove
   image: team-bert.jpg
-  text: digitale marketing specialist <br />investeert in innovatieve ondernemingen <br />vond de liefde in Maarkedal
-  
+  text: digitale marketing specialist <br />investeert in innovatieve ondernemingen
+    <br />vond de liefde in Maarkedal
 - name: Els De Deken
   image: team-els.jpg
-  text: community manager en matchmaker voor THINK with people <br />groeide op, op 100m van de kerk van Kerkem
+  text: community manager en matchmaker voor THINK with people <br />groeide op, op
+    100m van de kerk van Kerkem
