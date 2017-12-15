@@ -44,35 +44,30 @@ navi:
 - name: Missie
   url: "/missie"
   class: 
-  rel: 
+  rel:
+  
+  
 team:
 - name: Hans 't Kindt
-  age: 50
   image: team-hans.jpg
-  one: kloppend hart van de organisatie
-  two: woont in Etikhove
-  three: kijkt uit naar Late Night Special
+  text: kloppend hart van de organisatie <br />woont in Etikhove <br />kijkt uit naar Late Night Special
+  
 - name: Piet De Loof
-  age: 45
   image: team-piet.jpg
-  one: schrijft alle copy voor web en print
-  two: woont in Leupegem
-  three: kijkt uit naar 'Days of heaven'
+  text: schrijft alle copy voor web en print <br />woont in Leupegem <br />kijkt uit naar 'Days of heaven'
+  
 - name: Rosalien Eggermont
-  age: 29
-  image: team-hans.jpg
-  one: grafisch vormgeefster van Blikveld
-  two: woont in Leupegem
-  three: kijkt uit naar de openingsfilm
+  image: team-rosalien.jpg
+  text: grafisch vormgeefster van Blikveld <br />woont in Leupegem
+  
 - name: Ludo Vander Haeghen
-  age: 50
   image: team-ludo.jpg
-  one: Ludo, de man achter de cijfers
-  two: 
-  three: 
-- name: Hans 't Kindt
-  age: 50
-  image: team-hans.jpg
-  one: kloppend hart van de organisatie
-  two: woont in Etikhove
-  three: kijkt uit naar Late Night Special
+  text: Ludo, de man achter de cijfers
+  
+- name: Bert Van Wassenhove
+  image: team-bert.jpg
+  text: digitale marketing specialist <br />investeert in innovatieve ondernemingen <br />vond de liefde in Maarkedal
+  
+- name: Els De Deken
+  image: team-els.jpg
+  text: community manager en matchmaker voor THINK with people <br />groeide op, op 100m van de kerk van Kerkem
