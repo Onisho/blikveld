@@ -74,8 +74,11 @@ team:
     jong en oud
 - name: Fréderic Verwee
   image: team-frederic.jpg
+<<<<<<< HEAD
   text: Medeverantwoordelijke Filmselectie <br />Unieke films op prachtige locaties voor het goede doel! <br />Een bijzonder Combinatie!
+=======
+  text: 
+>>>>>>> 70b1d08adf7ac2a71720268f53e328676bee397a
 - name: Anthony Claeys
   image: team-anthony.jpg
-  text:
-
+  text: 
