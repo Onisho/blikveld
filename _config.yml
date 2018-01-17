@@ -30,7 +30,7 @@ navi:
   class: 
   rel: 
 - name: Tickets
-  url: "http://blikveld.eventbrite.com/"
+  url: http://blikveld.eventbrite.com/
   class: 
   rel: external
 - name: Locaties
