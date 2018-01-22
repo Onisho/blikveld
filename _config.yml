@@ -48,10 +48,12 @@ navi:
 team:
 - name: Hans 't Kindt
   image: team-hans.jpg
-  text: kloppend hart van de organisatie <br />woont in Etikhove <br />kijkt uit naar Late Night Special
+  text: kloppend hart van de organisatie <br />woont in Etikhove <br />kijkt uit naar
+    Late Night Special
 - name: Piet De Loof
   image: team-piet.jpg
-  text: schrijft alle copy voor web en print <br />woont in Leupegem <br />kijkt uit naar 'Days of heaven'
+  text: schrijft alle copy voor web en print <br />woont in Leupegem <br />kijkt uit
+    naar 'Days of heaven'
 - name: Rosalien Eggermont
   image: team-rosalien.jpg
   text: grafisch vormgeefster van Blikveld <br />woont in Leupegem
@@ -60,19 +62,24 @@ team:
   text: Ludo, de man achter de cijfers
 - name: Bert Van Wassenhove
   image: team-bert.jpg
-  text: digitale marketing specialist <br />investeert in innovatieve ondernemingen<br />vond de liefde in Maarkedal
+  text: digitale marketing specialist <br />investeert in innovatieve ondernemingen<br
+    />vond de liefde in Maarkedal
 - name: Els De Deken
   image: team-els.jpg
-  text: community manager en matchmaker voor THINK with people <br />groeide op, op 100m van de kerk van Kerkem
+  text: community manager en matchmaker voor THINK with people <br />groeide op, op
+    100m van de kerk van Kerkem
 - name: Tim Maerschand
   image: team-tim.jpg
-  text: programmator, woont in Gent <br />kijkt uit naar de reacties van het publiek, jong en oud
+  text: programmator, woont in Gent <br />kijkt uit naar de reacties van het publiek,
+    jong en oud
 - name: Fréderic Verwee
   image: team-frederic.jpg
-  text: medeverantwoordelijke Filmselectie <br />Unieke films op prachtige locaties voor het goede doel! <br />Een bijzonder Combinatie!
+  text: medeverantwoordelijke Filmselectie <br />Unieke films op prachtige locaties
+    voor het goede doel! <br />Een bijzonder Combinatie!
 - name: Anthony Claeys
   image: team-anthony.jpg
-  text: woont in Ronse<br />sociaal geëngageerd en niet vies om zelf handen uit de mouwen te steken!
+  text: woont in Ronse<br />sociaal geëngageerd en niet vies om zelf handen uit de
+    mouwen te steken!
 - name: Matthias Peynshaert
   image: team-matthias.jpg
   text: melomaan, cinefiel, megalomaan
@@ -81,4 +88,6 @@ team:
   text: 
 - name: Yves Van Langenhove
   image: team-yves.jpg
-  text: woont in Etikhove<br />lid Kiwanis Universus en vanuit dat standpunt zet ik met veel overtuiging graag mijn schouders onder dit uitzonderlijke project tbv onze sociale projecten.
+  text: woont in Etikhove<br />lid Kiwanis Universus en vanuit dat standpunt zet ik
+    met veel overtuiging graag mijn schouders onder dit uitzonderlijke project tbv
+    onze sociale projecten.
