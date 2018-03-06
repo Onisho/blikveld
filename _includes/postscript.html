@@ -1,5 +1,7 @@
 <section class="postscript text-center mt-5">
   <div class="container">
+    
+    <!-- GOLD PARTNERS -->
     <div class="row">
       <div class="col-12 col-md-4">
         <div class="logo"><a href="https://www.safetyjogger.com" title="safety jogger" rel="external"><img src="{{site.baseurl}}/img/sponsor-safetyjogger.png" alt="safety jogger" class="img-fluid"></a></div>
@@ -11,23 +13,15 @@
         <div class="logo"><a href="http://www.roman.be/" title="ename" rel="external"><img src="{{site.baseurl}}/img/sponsor-ename.png" alt="ename" class="img-fluid"></a></div>
       </div>
     </div>
+    
+    <!-- SILVER PARTNERS -->
     <div class="row">
-      <div class="col-12 col-md-2">
+      {% for sponsor in site.data.sponsors %}
+      <div class="col-6 col-md-2">     
+        <div class="logo"><a href="{{sponsor.url}}" title="arijs" rel="external"><img src="{{site.baseurl}}/img/sponsor-{{sponsor.name}}.png" alt="arijs" class="img-fluid"></a></div>
       </div>
-      <div class="col-12 col-md-2">
-        <div class="logo"><a href="http://revista-media.be" title="revista" rel="external"><img src="{{site.baseurl}}/img/sponsor-revista.png" alt="revista" class="img-fluid"></a></div>
-      </div>
-      <div class="col-12 col-md-2">
-        <div class="logo"><a href="http://www.aarova.be" title="aarova" rel="external"><img src="{{site.baseurl}}/img/sponsor-aarova.png" alt="aarova" class="img-fluid"></a></div>
-      </div>
-      <div class="col-12 col-md-2">
-        <div class="logo"><a href="http://www.drukkerijarijs.com/" title="arijs" rel="external"><img src="{{site.baseurl}}/img/sponsor-arijs.png" alt="arijs" class="img-fluid"></a></div>
-      </div>
-      <div class="col-12 col-md-2">
-        <div class="logo"><a href="https://www.belfius.be" title="belfius" rel="external"><img src="{{site.baseurl}}/img/sponsor-belfius.png" alt="belfius" class="img-fluid"></a></div>
-      </div>
-      <div class="col-12 col-md-2">
-      </div>
+      {% endfor %}
     </div>
+      
   </div>
 </section>
