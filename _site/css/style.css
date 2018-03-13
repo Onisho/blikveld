@@ -35,6 +35,7 @@ h4, h5 {font-family: 'Open Sans Condensed', sans-serif;font-weight:700;}
 .movie .location {background-color:#4AB969;color:#FFFFFF;}
 .movie .duration {background-color:#80D3F3;color:#FFFFFF;}
 .movie .price {background-color:#fafafa;}
+.movie .highlight {background-color:#EFEFEF;padding:15px;font-weight:bold;}
 
 .program .card {background-color:#EFEFEF;border:none;border-radius:0px;}
 .program .day {border-bottom:1px solid #95989A;border-top:1px solid #95989A;padding:20px 0;text-transform:uppercase;font-size:1.4rem;}

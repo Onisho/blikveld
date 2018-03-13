@@ -19,16 +19,20 @@ layout: default
     </div>
     <div class="row">
     <div class="col-lg-6 col-md-12 mb-3">
+      {% if page.title != 'Het Kwade Oog' %}
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{page.youtube}}" allowfullscreen></iframe>
         </div>
+      {% else %}
+        <img src="{{site.baseurl}}/img/het-kwade-oog.png" />
+      {% endif %}
       </div>
       <div class="col-lg-6 col-md-12">
         <div>{{content}}</div>
       </div>
       <div class="col-12 text-center">
         <hr />
-        <a href="{{page.tickets}}" rel="external" class="btn btn-primary mr-1">Tickets</a> <a href="{{site.baseurl}}/programma" class="btn btn-secondary ml-1">programma</a>
+        {% if page.title != 'Het Kwade Oog' %}<a href="{{page.tickets}}" rel="external" class="btn btn-primary mr-1">Tickets</a>{% endif %} <a href="{{site.baseurl}}/programma" class="btn btn-secondary ml-1">programma</a>
       </div>
     </div>
   </div>
