@@ -29,14 +29,14 @@
 - name: vantieghem
   url: 
 - name: ledlab
-  url:
+  url: http://www.ledlab.be
 - name: vanwelden
-  url:
+  url: http://vanwelden.be
 - name: jomaparts
-  url:
+  url: http://www.jomaparts.com
 - name: trayco
-  url:
+  url: https://www.trayco.be
 - name: beobank
-  url:
+  url: https://www.beobank.be
 - name: thyla
-  url: 
+  url: http://www.thyla-classics.com
