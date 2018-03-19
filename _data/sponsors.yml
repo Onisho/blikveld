@@ -6,6 +6,8 @@
   url: https://www.drukkerijarijs.com
 - name: belfius
   url: https://www.belfius.be/webapps/nl/agentschappen-zoeker/kantoor/openingsuren-oudenaarde-81596
+- name: delmulledelmulle
+  url: http://delmulledelmulle.be
 - name: taxidemeyer
   url: http://www.taxidemeyer.be/en
 - name: vento
@@ -22,8 +24,6 @@
   url: http://www.louisdelhaize.com
 - name: ghijs
   url: http://www.ghijs.be
-- name: delmulledelmulle
-  url: http://delmulledelmulle.be
 - name: montdamis
   url: http://www.montdamis.be
 - name: vantieghem
