@@ -18,7 +18,7 @@
     <div class="row">
       {% for sponsor in site.data.sponsors %}
       <div class="col-6 col-md-2">     
-        <div class="logo"><a href="{{sponsor.url}}" title="arijs" rel="external"><img src="{{site.baseurl}}/img/sponsor-{{sponsor.name}}.png" alt="arijs" class="img-fluid"></a></div>
+        <div class="logo"><a href="{{sponsor.url}}" title="{{sponsor.name}}" rel="external"><img src="{{site.baseurl}}/img/sponsor-{{sponsor.name}}.png" alt="arijs" class="img-fluid"></a></div>
       </div>
       {% endfor %}
     </div>
