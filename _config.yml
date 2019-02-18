@@ -23,21 +23,21 @@ permalink: "/:title/"
 navi:
 - name: Home
   url: "/"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Programma
   url: "/programma"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Locatie
   url: "/locatie"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Praktisch
   url: "/praktisch"
-  class:
-  rel:
+  class: 
+  rel: 
 - name: Missie
   url: "/missie"
-  class:
-  rel:
+  class: 
+  rel: 
