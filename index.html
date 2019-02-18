@@ -10,7 +10,7 @@ layout: front
 
         <div class="row">
           <div class="col-md-4 mb-5">
-            <h3 class="mb-4 text-center day"><span class="day1 d-block">Vrijdag</span> 20 april</h3>
+            <h3 class="mb-4 text-center day"><span class="day1 d-block">Vrijdag</span> 26 april</h3>
             <div class="card mb-4">
               <a href="{{site.baseurl}}/receptie">
                 <div class="time2 pb-1">19u</div>
@@ -20,10 +20,10 @@ layout: front
               </a>
             </div>
             <!-- MOVIES FRIDAY -->
-            {% assign sorted_items = site.films | sort: "order" %}
+            {% assign sorted_items = site.films %}
             {% for item in sorted_items  %}
             {% assign myDate = item.date | date: "%d" %}
-            {% if myDate == "20" %}
+            {% if myDate == "26" %}
             <div class="card mb-4">
               <a href="{{ item.url | prepend: site.baseurl }}">
                 <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | downcase }}.png" alt="{{item.title}} ">
@@ -37,23 +37,23 @@ layout: front
             </div>
             {% endif %}
             {% endfor %}
-            <div class="card mb-4">
-              <a href="{{site.baseurl}}/afterparty">
-                <div class="time2 pb-1">22u00</div>
-                <div class="card-body text-center bg-green">
-                  <h4 class="card-title mb-1 pt-3">Afterparty 'Het Kwade Oog'</h4>
-                </div>
-              </a>
-            </div>
             <!-- // MOVIES -->
           </div>
           <div class="col-md-4 mb-5">
-            <h3 class="mb-4 text-center day"><span class="day1 d-block">Zaterdag</span>21 april</h3>
+            <h3 class="mb-4 text-center day"><span class="day1 d-block">Zaterdag</span>27 april</h3>
+            <div class="card mb-4">
+              <a href="{{site.baseurl}}/receptie">
+                <div class="time2 pb-1">19u</div>
+                <div class="card-body text-center bg-green">
+                  <h4 class="card-title mb-1 pt-3">Receptie in ons pop-up café</h4>
+                </div>
+              </a>
+            </div>
             <!-- MOVIES SATURDAY -->
             {% assign sorted_items = site.films | sort: "order" %}
             {% for item in sorted_items  %}
             {% assign myDate = item.date | date: "%d" %}
-            {% if myDate == "21" %}
+            {% if myDate == "27" %}
             <div class="card mb-4">
               <a href="{{ item.url | prepend: site.baseurl }}">
                 <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | replace: 'é', 'e' | downcase }}.png" alt="{{item.title}}">
@@ -68,18 +68,9 @@ layout: front
             {% endif %}
             {% endfor %}
             <!-- // MOVIES -->
-            <div class="card mb-4">
-              <a href="{{site.baseurl}}/late-night-special">
-                <div class="time2 pb-1">22u30</div>
-                <div class="card-body text-center bg-green">
-                  <h4 class="card-title mb-1 pt-3">Late Night Special</h4>
-                </div>
-              </a>
-            </div>
           </div>
           <div class="col-md-4 mb-5">
-            <h3 class="mb-4 text-center day"><span class="day1 d-block">Zondag</span> 22 april</h3>
-              
+            <h3 class="mb-4 text-center day"><span class="day1 d-block">Zondag</span> 28 april</h3>
             <div class="card mb-4">
               <a href="{{site.baseurl}}/brunch">
                 <div class="time2 pb-1">9u</div>
@@ -92,7 +83,7 @@ layout: front
             {% assign sorted_items = site.films | sort: "order" %}
             {% for item in sorted_items  %}
             {% assign myDate = item.date | date: "%d" %}
-            {% if myDate == "22" %}
+            {% if myDate == "28" %}
             <div class="card mb-4">
               <a href="{{ item.url | prepend: site.baseurl }}">
                 <img class="card-img-top" src="{{site.baseurl}}/img/{{ item.title | replace: ' ', '-' | replace: 'ê', 'e' | downcase }}.png" alt="{{item.title}}">
